@@ -2,6 +2,7 @@
   "name": "vscode-rails-syntax",
   "displayName": "vscode_rails_syntax",
   "description": "Extends Ruby Language Grammar with Rails Library",
+  "publisher": "SarahRidge",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.42.0"
