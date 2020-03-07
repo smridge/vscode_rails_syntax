@@ -10,16 +10,10 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "ruby",
-      "aliases": ["ruby", "ruby"],
-      "extensions": [".rb"],
-      "configuration": "./language-configuration.json"
-    }],
     "grammars": [{
-      "language": "ruby",
-      "scopeName": "source.ruby",
-      "path": "./syntaxes/ruby.tmLanguage.json"
+      "injectTo": ["source.ruby"],
+      "scopeName": "action_text",
+      "path": "./syntaxes/action_text.tmLanguage.json"
     }]
   }
 }

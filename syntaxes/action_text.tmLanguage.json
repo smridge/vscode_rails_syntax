@@ -1,0 +1,20 @@
+{
+  "scopeName": "action_text",
+  "injectionSelector": "L:source -comment -string",
+  "patterns": [
+    {
+      "include": "#attributes"
+    }
+  ],
+  "repository": {
+    "attributes": {
+      "patterns": [
+        {
+          "name": "support.function.attribute.action-text.rails",
+          "match": "has_rich_text",
+          "comment": "https://api.rubyonrails.org/classes/ActionText/Attribute.html"
+        }
+      ]
+    }
+  }
+}
