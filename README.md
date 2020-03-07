@@ -3,7 +3,7 @@ Extends Visual Studio Code's Ruby Language Grammars with Rails Library.
 
 Syntax Identification for Rails Library using [Rails API](https://api.rubyonrails.org).
 
-## Mappings:
+## Mappings
 
 ### AbstractController
 - `AbstractController::Callbacks`
