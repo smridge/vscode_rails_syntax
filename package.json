@@ -1,25 +1,25 @@
 {
-    "name": "vscode-rails-syntax",
-    "displayName": "vscode_rails_syntax",
-    "description": "Extends Ruby Language Grammar with Rails Library",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.42.0"
-    },
-    "categories": [
-        "Programming Languages"
-    ],
-    "contributes": {
-        "languages": [{
-            "id": "ruby",
-            "aliases": ["ruby", "ruby"],
-            "extensions": [".rb"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "ruby",
-            "scopeName": "source.ruby",
-            "path": "./syntaxes/ruby.tmLanguage.json"
-        }]
-    }
+  "name": "vscode-rails-syntax",
+  "displayName": "vscode_rails_syntax",
+  "description": "Extends Ruby Language Grammar with Rails Library",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.42.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "ruby",
+      "aliases": ["ruby", "ruby"],
+      "extensions": [".rb"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "ruby",
+      "scopeName": "source.ruby",
+      "path": "./syntaxes/ruby.tmLanguage.json"
+    }]
+  }
 }
