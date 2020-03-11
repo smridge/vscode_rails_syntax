@@ -26,7 +26,7 @@
       "patterns": [
         {
           "name": "support.function.association.active-record.rails",
-          "match": "\\b(belongs_to|has_one|has_many|has_and_belongs_to_many)\\b",
+          "match": "\\b(belongs_to|has_one|has_many|has_and_belongs_to_many)\\b(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActiveRecord/Associations/ClassMethods.html"
         }
       ]
@@ -35,7 +35,7 @@
       "patterns": [
         {
           "name": "support.function.callback.active-record.rails",
-          "match": "\\b(after_initialize|after_find|after_touch|before_validation|after_validation|before_save|around_save|after_save|before_create|around_create|after_create|before_update|around_update|after_update|before_destroy|around_destroy|after_destroy|after_commit|after_rollback)\\b",
+          "match": "\\b(after_initialize|after_find|after_touch|before_validation|after_validation|before_save|around_save|after_save|before_create|around_create|after_create|before_update|around_update|after_update|before_destroy|around_destroy|after_destroy|after_commit|after_rollback)\\b(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActiveRecord/Callbacks.html"
         }
       ]
@@ -44,17 +44,17 @@
       "patterns": [
         {
           "name": "support.function.migration.create.active-record.rails",
-          "match": "\\b(create_join_table|create_table|add_column|add_foreign_key|add_index|add_reference|add_timestamps)\\b",
+          "match": "\\b(create_join_table|create_table|add_column|add_foreign_key|add_index|add_reference|add_timestamps)\\b(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActiveRecord/Migration.html"
         },
         {
           "name": "support.function.migration.modify.active-record.rails",
-          "match": "\\b(change_column|change_column_default|change_column_null|change_table|rename_column|rename_index|rename_table)\\b",
+          "match": "\\b(change_column|change_column_default|change_column_null|change_table|rename_column|rename_index|rename_table)\\b(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActiveRecord/Migration.html"
         },
         {
           "name": "support.function.migration.delete.active-record.rails",
-          "match": "\\b(drop_table|drop_join_table|remove_column|remove_columns|remove_foreign_key|remove_index|remove_reference|remove_timestamps)\\b",
+          "match": "\\b(drop_table|drop_join_table|remove_column|remove_columns|remove_foreign_key|remove_index|remove_reference|remove_timestamps)\\b(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActiveRecord/Migration.html"
         }
       ]
@@ -63,7 +63,7 @@
       "patterns": [
         {
           "name": "support.function.scoping.active-record.rails",
-          "match": "\\b(scope|all)\\b",
+          "match": "\\b(scope|all)\\b(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActiveRecord/Scoping/Named/ClassMethods.html"
         }
       ]
@@ -72,7 +72,7 @@
       "patterns": [
         {
           "name": "support.function.nested-attributes.active-record.rails",
-          "match": "accepts_nested_attributes_for",
+          "match": "(accepts_nested_attributes_for)(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html"
         }
       ]
@@ -81,7 +81,7 @@
       "patterns": [
         {
           "name": "support.function.query-methods.active-record.rails",
-          "match": "\\b(annotate|create_with|distinct|eager_load|extending|extract_associated|from|group|having|includes|joins|left_joins|left_outer_joins|limit|lock|none|offset|optimizer_hints|or|order|preload|readonly|references|reorder|reselect|reverse_order|rewhere|select|unscope|where)\\b",
+          "match": "\\b(annotate|create_with|distinct|eager_load|extending|extract_associated|from|group|having|includes|joins|left_joins|left_outer_joins|limit|lock|none|offset|optimizer_hints|or|order|preload|readonly|references|reorder|reselect|reverse_order|rewhere|select|unscope|where)\\b(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html"
         }
       ]

@@ -11,7 +11,7 @@
       "patterns": [
         {
           "name": "support.function.attribute.action-text.rails",
-          "match": "has_rich_text",
+          "match": "(has_rich_text)(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActionText/Attribute.html"
         }
       ]
