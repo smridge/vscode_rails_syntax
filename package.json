@@ -29,6 +29,11 @@
       },
       {
         "injectTo": ["source.ruby"],
+        "scopeName": "active_model",
+        "path": "./syntaxes/active_model.tmLanguage.json"
+      },
+      {
+        "injectTo": ["source.ruby"],
         "scopeName": "active_record",
         "path": "./syntaxes/active_record.tmLanguage.json"
       },

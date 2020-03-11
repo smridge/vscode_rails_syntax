@@ -11,6 +11,9 @@ Syntax Identification for Rails Library using [Rails API](https://api.rubyonrail
 ### ActionText
 - `ActionText::Attribute`
 
+### ActiveModel
+- `ActiveModel::Validations::ClassMethods`
+
 ### ActiveRecord
 - `ActiveRecord::Associations::ClassMethods`
 - `ActiveRecord::Callbacks`

@@ -1,0 +1,25 @@
+{
+  "scopeName": "active_model",
+  "injectionSelector": "L:source -comment -string",
+  "patterns": [
+    {
+      "include": "#validations"
+    }
+  ],
+  "repository": {
+    "validations": {
+      "patterns": [
+        {
+          "name": "support.function.validations.active-model.rails",
+          "match": "\\b(attribute_method\\?|clear_validators\\!|validates\\!)\\B(?![:.+]|\\s+[=+])",
+          "comment": "https://api.rubyonrails.org/classes/ActiveModel/Validations/ClassMethods.html"
+        },
+        {
+          "name": "support.function.validations.active-model.rails",
+          "match": "\\b(validates|validates_each|validates_with|validators|validators_on|validate)\\b(?![:!?.+]|\\s+[=+])",
+          "comment": "https://api.rubyonrails.org/classes/ActiveModel/Validations/ClassMethods.html"
+        }
+      ]
+    }
+  }
+}
