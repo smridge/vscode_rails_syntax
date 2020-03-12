@@ -18,9 +18,10 @@ Syntax Identification for Rails Library using [Rails API](https://api.rubyonrail
 - `ActiveRecord::Associations::ClassMethods`
 - `ActiveRecord::Callbacks`
 - `ActiveRecord::Migration < Object`
-- `ActiveRecord::Scoping::Named::ClassMethods`
 - `ActiveRecord::NestedAttributes::ClassMethods`
 - `ActiveRecord::QueryMethods`
+- `ActiveRecord::Relation < Object`
+- `ActiveRecord::Scoping::Named::ClassMethods`
 
 ### ActiveStorage
 - `ActiveStorage::Attached::Model`
