@@ -81,7 +81,7 @@
       "patterns": [
         {
           "name": "support.function.query-methods.active-record.rails",
-          "match": "\\b(annotate|create_with|distinct|eager_load|extending|extract_associated|from|group|having|includes|joins|left_joins|left_outer_joins|limit|lock|none|offset|optimizer_hints|or|order|preload|readonly|references|reorder|reselect|reverse_order|rewhere|select|unscope|where)\\b(?![:!?.+]|\\s+[=+])",
+          "match": "\\b(annotate|create_with|distinct|eager_load|extending|extract_associated|from|group|having|includes|joins|left_joins|left_outer_joins|limit|lock|none|offset|optimizer_hints|or|order|preload|readonly|references|reorder|reselect|reverse_order|rewhere|select|unscope|where)\\b(?![:!?+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html"
         }
       ]
