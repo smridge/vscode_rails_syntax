@@ -41,6 +41,11 @@
         "injectTo": ["source.ruby"],
         "scopeName": "active_storage",
         "path": "./syntaxes/active_storage.tmLanguage.json"
+      },
+      {
+        "injectTo": ["source.ruby"],
+        "scopeName": "module",
+        "path": "./syntaxes/module.tmLanguage.json"
       }
     ]
   }

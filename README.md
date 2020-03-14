@@ -26,6 +26,9 @@ Syntax Identification for Rails Library using [Rails API](https://api.rubyonrail
 ### ActiveStorage
 - `ActiveStorage::Attached::Model`
 
+### Module
+- `Module < Object`
+
 ## Notes
 This Extension is certainly not inclusive of every method Rails offers. Rails is a massive library!
 
