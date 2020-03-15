@@ -1,6 +1,6 @@
 {
   "scopeName": "active_model",
-  "injectionSelector": "L:source -comment -string",
+  "injectionSelector": "L:source -comment -string -source.ruby.gemfile",
   "patterns": [
     {
       "include": "#validations"
