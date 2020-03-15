@@ -29,6 +29,10 @@ Syntax Identification for Rails Library using [Rails API](https://api.rubyonrail
 ### Module
 - `Module < Object`
 
+### Other
+- `Bundler`
+  - `gemfile`
+
 ## Notes
 This Extension is certainly not inclusive of every method Rails offers. Rails is a massive library!
 
