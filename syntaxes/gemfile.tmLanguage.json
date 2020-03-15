@@ -1,0 +1,20 @@
+{
+  "scopeName": "gemfile",
+  "injectionSelector": "L:source",
+  "patterns": [
+    {
+      "include": "#functions"
+    }
+  ],
+  "repository": {
+    "functions": {
+      "patterns": [
+        {
+          "name": "entity.name.function.bundler",
+          "match": "(?<!\\.)\\b(source|ruby|gem|group|groups)\\b(?![:!?.+]|\\s+[=+])",
+          "comment": "https://bundler.io/man/gemfile.5.html"
+        }
+      ]
+    }
+  }
+}
