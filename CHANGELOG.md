@@ -43,3 +43,7 @@
 
 #### Change
 - Fix gemfile from highlighting unrelated scopes.
+
+### [0.0.8]
+#### Added
+- `ActionDispatch::Routing::Mapper`
