@@ -2,27 +2,13 @@
   "scopeName": "active_record",
   "injectionSelector": "L:source -comment -string -source.ruby.gemfile",
   "patterns": [
-    {
-      "include": "#associations"
-    },
-    {
-      "include": "#callbacks"
-    },
-    {
-      "include": "#migrations"
-    },
-    {
-      "include": "#nested_attributes"
-    },
-    {
-      "include": "#query_methods"
-    },
-    {
-      "include": "#relations"
-    },
-    {
-      "include": "#scoping"
-    }
+    { "include": "#associations" },
+    { "include": "#callbacks" },
+    { "include": "#migrations" },
+    { "include": "#nested_attributes" },
+    { "include": "#query_methods" },
+    { "include": "#relations" },
+    { "include": "#scoping" }
   ],
   "repository": {
     "associations": {

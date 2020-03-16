@@ -2,9 +2,7 @@
   "scopeName": "abstract_controller",
   "injectionSelector": "L:source -comment -string -source.ruby.gemfile",
   "patterns": [
-    {
-      "include": "#callbacks"
-    }
+    { "include": "#callbacks" }
   ],
   "repository": {
     "callbacks": {

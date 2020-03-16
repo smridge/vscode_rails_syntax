@@ -2,9 +2,7 @@
   "scopeName": "module",
   "injectionSelector": "L:source -comment -string -source.ruby.gemfile",
   "patterns": [
-    {
-      "include": "#methods"
-    }
+    { "include": "#methods" }
   ],
   "repository": {
     "methods": {

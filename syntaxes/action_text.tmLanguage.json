@@ -2,9 +2,7 @@
   "scopeName": "action_text",
   "injectionSelector": "L:source -comment -string -source.ruby.gemfile",
   "patterns": [
-    {
-      "include": "#attributes"
-    }
+    { "include": "#attributes" }
   ],
   "repository": {
     "attributes": {

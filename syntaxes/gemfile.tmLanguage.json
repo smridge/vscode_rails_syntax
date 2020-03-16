@@ -2,9 +2,7 @@
   "scopeName": "gemfile",
   "injectionSelector": "L:source",
   "patterns": [
-    {
-      "include": "#functions"
-    }
+    { "include": "#functions" }
   ],
   "repository": {
     "functions": {
