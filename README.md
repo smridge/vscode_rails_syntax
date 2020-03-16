@@ -8,6 +8,14 @@ Syntax Identification for Rails Library using [Rails API](https://api.rubyonrail
 ### AbstractController
 - `AbstractController::Callbacks`
 
+### ActionDispatch
+- `Routing::Mapper::Base`
+- `Routing::Mapper::Concerns`
+- `Routing::Mapper::CustomUrls`
+- `Routing::Mapper::HttpHelpers`
+- `Routing::Mapper::Resources`
+- `Routing::Mapper::Scoping`
+
 ### ActionText
 - `ActionText::Attribute`
 
