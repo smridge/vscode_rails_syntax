@@ -1,6 +1,6 @@
 {
   "scopeName": "gemfile",
-  "injectionSelector": "L:source",
+  "injectionSelector": "L:source -comment -string",
   "patterns": [
     { "include": "#functions" }
   ],
