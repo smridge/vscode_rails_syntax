@@ -46,11 +46,11 @@
 #### Added
 - `ActionDispatch::Routing::Mapper`
 
-## [Unreleased]
-
 ### [0.0.9]
 #### Fixed
 - Prevent Highlighting in comments and strings for `gemfile`.
 
 #### Added
 - `ActiveRecord::Enum` methods.
+
+## [Unreleased]
