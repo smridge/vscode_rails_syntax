@@ -1,7 +1,5 @@
 # Change Log
 
-## [Unreleased]
-
 ### [0.0.1]
 
 #### Added
@@ -19,15 +17,15 @@
 #### Added
 - `ActiveModel::Validations::ClassMethods`.
 
-#### Change
+#### Fixed
 - Prevent Hash Keys from highlighting (invalid syntax).
 
 ### [0.0.4]
 #### Added
 - `ActiveRecord::Relation < Object` Part 1 methods.
 
-#### Change
-- Fix active_record scope query_methods pattern match to highlight when chaining methods.
+#### Fixed
+- active_record scope query_methods pattern match to highlight when chaining methods.
 
 ### [0.0.5]
 #### Added
@@ -41,9 +39,18 @@
 #### Added
 - `Bundler`: `gemfile`
 
-#### Change
-- Fix gemfile from highlighting unrelated scopes.
+#### Fixed
+- Prevent highlighting `gemfile` related scopes for other files.
 
 ### [0.0.8]
 #### Added
 - `ActionDispatch::Routing::Mapper`
+
+## [Unreleased]
+
+### [0.0.9]
+#### Fixed
+- Prevent Highlighting in comments and strings for `gemfile`.
+
+#### Added
+- `ActiveRecord::Enum` methods.

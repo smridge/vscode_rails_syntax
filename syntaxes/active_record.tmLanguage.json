@@ -4,6 +4,7 @@
   "patterns": [
     { "include": "#associations" },
     { "include": "#callbacks" },
+    { "include": "#enum" },
     { "include": "#migrations" },
     { "include": "#nested_attributes" },
     { "include": "#query_methods" },
@@ -26,6 +27,15 @@
           "name": "support.function.callback.active-record.rails",
           "match": "\\b(after_initialize|after_find|after_touch|before_validation|after_validation|before_save|around_save|after_save|before_create|around_create|after_create|before_update|around_update|after_update|before_destroy|around_destroy|after_destroy|after_commit|after_rollback)\\b(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActiveRecord/Callbacks.html"
+        }
+      ]
+    },
+    "enum": {
+      "patterns": [
+        {
+          "name": "support.function.enum.active-record.rails",
+          "match": "(?<!\\.)\\b(enum)\\b(?![:!?.+]|\\s+[=+])",
+          "comment": "https://api.rubyonrails.org/classes/ActiveRecord/Enum.html"
         }
       ]
     },

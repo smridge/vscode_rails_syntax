@@ -25,6 +25,7 @@ Syntax Identification for Rails Library using [Rails API](https://api.rubyonrail
 ### ActiveRecord
 - `ActiveRecord::Associations::ClassMethods`
 - `ActiveRecord::Callbacks`
+- `ActiveRecord::Enum`
 - `ActiveRecord::Migration < Object`
 - `ActiveRecord::NestedAttributes::ClassMethods`
 - `ActiveRecord::QueryMethods`
