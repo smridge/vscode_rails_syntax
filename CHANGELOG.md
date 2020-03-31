@@ -53,4 +53,11 @@
 #### Added
 - `ActiveRecord::Enum` methods.
 
+### [0.1.0]
+#### Fixed
+- Prevent Keywords from highlighting with preceeding dot
+
+### Change
+- Differentiate Keywords and Functions
+
 ## [Unreleased]
