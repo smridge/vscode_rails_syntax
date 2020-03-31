@@ -8,8 +8,8 @@
     "attributes": {
       "patterns": [
         {
-          "name": "support.function.attribute.action-text.rails",
-          "match": "(has_rich_text)(?![:!?.+]|\\s+[=+])",
+          "name": "keyword.other.special-method.attribute.action-text.rails",
+          "match": "(?<!\\.)(has_rich_text)(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActionText/Attribute.html"
         }
       ]

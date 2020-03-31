@@ -8,7 +8,7 @@
     "functions": {
       "patterns": [
         {
-          "name": "entity.name.function.bundler",
+          "name": "keyword.other.special-method.bundler",
           "match": "(?<!\\.)\\b(source|ruby|gem|group|groups)\\b(?![:!?.+]|\\s+[=+])",
           "comment": "https://bundler.io/man/gemfile.5.html"
         }

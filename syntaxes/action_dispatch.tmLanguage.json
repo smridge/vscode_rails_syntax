@@ -13,12 +13,12 @@
     "routing_mapper_base": {
       "patterns": [
         {
-          "name": "support.function.base.mapper.routing.action-dispatch.rails",
+          "name": "keyword.other.special-method.base.mapper.routing.action-dispatch.rails",
           "match": "(?<!\\.)\\b(default_url_options|match|mount|with_default_scope)\\b(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActionDispatch/Routing/Mapper/Base.html"
         },
         {
-          "name": "support.function.base.mapper.routing.action-dispatch.rails",
+          "name": "keyword.other.special-method.base.mapper.routing.action-dispatch.rails",
           "match": "(?<!\\.)\\b(has_named_route\\?)\\B(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActionDispatch/Routing/Mapper/Base.html"
         }
@@ -27,7 +27,7 @@
     "routing_mapper_concerns": {
       "patterns": [
         {
-          "name": "support.function.concerns.mapper.routing.action-dispatch.rails",
+          "name": "keyword.other.special-method.concerns.mapper.routing.action-dispatch.rails",
           "match": "(?<!\\.)\\b(concern|concerns)\\b(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActionDispatch/Routing/Mapper/Concerns.html"
         }
@@ -36,7 +36,7 @@
     "routing_mapper_custom_urls": {
       "patterns": [
         {
-          "name": "support.function.custom_urls.mapper.routing.action-dispatch.rails",
+          "name": "keyword.other.special-method.custom_urls.mapper.routing.action-dispatch.rails",
           "match": "(?<!\\.)\\b(direct|resolve)\\b(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActionDispatch/Routing/Mapper/CustomUrls.html"
         }
@@ -54,7 +54,7 @@
     "routing_mapper_resouces": {
       "patterns": [
         {
-          "name": "support.function.resources.mapper.routing.action-dispatch.rails",
+          "name": "keyword.other.special-method.resources.mapper.routing.action-dispatch.rails",
           "match": "(?<!\\.)\\b(collection|member|namespace|resource|resources|root)\\b(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActionDispatch/Routing/Mapper/Resources.html"
         }
