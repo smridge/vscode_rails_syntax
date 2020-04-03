@@ -64,4 +64,8 @@
 #### Fixed
 - Prevent Special Methods from highlighting when followed by characters with whitespace
 
+### [0.2.1]
+#### Fixed
+- Space Requirement for Special Methods
+
 ## [Unreleased]
