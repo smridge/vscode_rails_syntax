@@ -60,4 +60,8 @@
 ### Change
 - Differentiate Keywords and Functions
 
+### [0.2.0]
+#### Fixed
+- Prevent Special Methods from highlighting when followed by characters with whitespace
+
 ## [Unreleased]
