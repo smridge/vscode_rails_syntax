@@ -9,7 +9,7 @@
       "patterns": [
         {
           "name": "keyword.other.special-method.relation.active-storage.rails",
-          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)(?<=\\s)\\b(has_many_attached|has_one_attached|purge|purge_later)\\b(?![:!?.+]|\\s+[=+])",
+          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)\\b(has_many_attached|has_one_attached|purge|purge_later)\\b(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActiveStorage/Attached/Model.html"
         }
       ]

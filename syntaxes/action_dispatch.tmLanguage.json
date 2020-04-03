@@ -14,12 +14,12 @@
       "patterns": [
         {
           "name": "keyword.other.special-method.base.mapper.routing.action-dispatch.rails",
-          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)(?<=\\s)\\b(default_url_options|match|mount|with_default_scope)\\b(?![:!?.+]|\\s+[=+])",
+          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)\\b(default_url_options|match|mount|with_default_scope)\\b(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActionDispatch/Routing/Mapper/Base.html"
         },
         {
           "name": "keyword.other.special-method.base.mapper.routing.action-dispatch.rails",
-          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)(?<=\\s)\\b(has_named_route\\?)\\B(?![:!?.+]|\\s+[=+])",
+          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)\\b(has_named_route\\?)\\B(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActionDispatch/Routing/Mapper/Base.html"
         }
       ]
@@ -28,7 +28,7 @@
       "patterns": [
         {
           "name": "keyword.other.special-method.concerns.mapper.routing.action-dispatch.rails",
-          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)(?<=\\s)\\b(concern|concerns)\\b(?![:!?.+]|\\s+[=+])",
+          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)\\b(concern|concerns)\\b(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActionDispatch/Routing/Mapper/Concerns.html"
         }
       ]
@@ -37,7 +37,7 @@
       "patterns": [
         {
           "name": "keyword.other.special-method.custom_urls.mapper.routing.action-dispatch.rails",
-          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)(?<=\\s)\\b(direct|resolve)\\b(?![:!?.+]|\\s+[=+])",
+          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)\\b(direct|resolve)\\b(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActionDispatch/Routing/Mapper/CustomUrls.html"
         }
       ]
@@ -46,7 +46,7 @@
       "patterns": [
         {
           "name": "support.function.http-helper.mapper.routing.action-dispatch.rails",
-          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)(?<=\\s)\\b(delete|get|patch|post|put)\\b(?![:!?.+]|\\s+[=+])",
+          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)\\b(delete|get|patch|post|put)\\b(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActionDispatch/Routing/Mapper/HttpHelpers.html"
         }
       ]
@@ -55,7 +55,7 @@
       "patterns": [
         {
           "name": "keyword.other.special-method.resources.mapper.routing.action-dispatch.rails",
-          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)(?<=\\s)\\b(collection|member|namespace|resource|resources|root)\\b(?![:!?.+]|\\s+[=+])",
+          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)\\b(collection|member|namespace|resource|resources|root)\\b(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActionDispatch/Routing/Mapper/Resources.html"
         }
       ]
@@ -64,12 +64,12 @@
       "patterns": [
         {
           "name": "support.function.scoping.mapper.routing.action-dispatch.rails",
-          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)(?<=\\s)\\b(constraints|controller|defaults)\\b(?![:!?.+]|\\s+[=+])",
+          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)\\b(constraints|controller|defaults)\\b(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActionDispatch/Routing/Mapper/Scoping.html"
         },
         {
           "name": "support.function.scoping.mapper.routing.action-dispatch.rails",
-          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)(?<=\\s)\\b(scope)\\b(?=\\s+(as|module|path))",
+          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)\\b(scope)\\b(?=\\s+(as|module|path))",
           "comment": "https://api.rubyonrails.org/classes/ActionDispatch/Routing/Mapper/Scoping.html"
         }
       ]

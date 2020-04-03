@@ -14,12 +14,12 @@
         },
         {
           "name": "keyword.other.special-method.validations.active-model.rails",
-          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)(?<=\\s)\\b(validates\\!)\\B(?![:.+]|\\s+[=+])",
+          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)\\b(validates\\!)\\B(?![:.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActiveModel/Validations/ClassMethods.html"
         },
         {
           "name": "keyword.other.special-method.validations.active-model.rails",
-          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)(?<=\\s)\\b(validates|validates_each|validates_with|validators|validators_on|validate)\\b(?![:!?.+]|\\s+[=+])",
+          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)\\b(validates|validates_each|validates_with|validators|validators_on|validate)\\b(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActiveModel/Validations/ClassMethods.html"
         }
       ]

@@ -9,7 +9,7 @@
       "patterns": [
         {
           "name": "keyword.other.special-method.bundler",
-          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)(?<=\\s)\\b(source|ruby|gem|group|groups)\\b(?![:!?.+]|\\s+[=+])",
+          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)\\b(source|ruby|gem|group|groups)\\b(?![:!?.+]|\\s+[=+])",
           "comment": "https://bundler.io/man/gemfile.5.html"
         }
       ]

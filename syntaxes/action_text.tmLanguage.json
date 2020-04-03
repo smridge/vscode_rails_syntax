@@ -9,7 +9,7 @@
       "patterns": [
         {
           "name": "keyword.other.special-method.attribute.action-text.rails",
-          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)(?<=\\s)(has_rich_text)(?![:!?.+]|\\s+[=+])",
+          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)(has_rich_text)(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/ActionText/Attribute.html"
         }
       ]
