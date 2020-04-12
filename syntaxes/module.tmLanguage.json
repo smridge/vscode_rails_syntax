@@ -14,7 +14,7 @@
         },
         {
           "name": "keyword.other.special-method.module.rails",
-          "match": "(?<!\\w\\s)(?<![+\\-*\\/=><&%!^\\.]\\s)\\b(alias_attribute|attr_internal|attr_internal_accessor|attr_internal_reader|attr_internal_writer|cattr_accessor|cattr_reader|cattr_writer|delegate|delegate_missing_to|deprecate|mattr_accessor|mattr_reader|mattr_writer|module_parent|module_parent_name|module_parents|parent|parent_name|parents|redefine_method|redefine_singleton_method|remove_possible_method|remove_possible_singleton_method|silence_redefinition_of_method|thread_cattr_accessor|thread_mattr_accessor)\\b(?![:!?.+]|\\s+[=+])",
+          "match": "(?<![+\\-*\\/=><&%!^\\.()|]|\\w\\s)\\b(alias_attribute|attr_internal|attr_internal_accessor|attr_internal_reader|attr_internal_writer|cattr_accessor|cattr_reader|cattr_writer|delegate|delegate_missing_to|deprecate|mattr_accessor|mattr_reader|mattr_writer|module_parent|module_parent_name|module_parents|parent|parent_name|parents|redefine_method|redefine_singleton_method|remove_possible_method|remove_possible_singleton_method|silence_redefinition_of_method|thread_cattr_accessor|thread_mattr_accessor)\\b(?![:!?.+]|\\s+[=+])",
           "comment": "https://api.rubyonrails.org/classes/Module.html"
         }
       ]
