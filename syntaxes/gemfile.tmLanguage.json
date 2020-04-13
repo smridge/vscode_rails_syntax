@@ -9,7 +9,12 @@
       "patterns": [
         {
           "name": "keyword.other.special-method.bundler",
-          "match": "(?<![+\\-*\\/=><&%!^\\.()|]|\\w\\s)\\b(source|ruby|gem|group|groups)\\b(?![:!?.+]|\\s+[=+])",
+          "match": "(?<![+\\-*\\/=><&%!^\\.()|])\\b(source|ruby|gem)\\b(?=\\s+[\"|\\'])",
+          "comment": "https://bundler.io/man/gemfile.5.html"
+        },
+        {
+          "name": "keyword.other.special-method.bundler",
+          "match": "(?<![+\\-*\\/=><&%!^\\.()|])\\b(group)\\b(?=\\s+[:])",
           "comment": "https://bundler.io/man/gemfile.5.html"
         }
       ]

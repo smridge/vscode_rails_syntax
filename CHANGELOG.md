@@ -73,3 +73,4 @@
 ### [0.2.2]
 #### Fixed
 - Disallowed preceeding characters for special methods
+- Gemfile Pattern Match for special methods
