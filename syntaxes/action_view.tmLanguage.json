@@ -1,0 +1,24 @@
+
+{
+  "scopeName": "action_view",
+  "injectionSelector": "L:source -comment -string -source.ruby.gemfile",
+  "patterns": [
+    { "include": "#helpers_url_helper" }
+  ],
+  "repository": {
+    "helpers_url_helper": {
+      "patterns": [
+        {
+          "name": "support.function.url-helper.action-view.rails",
+          "match": "(?<!\\.)\\b(button_to|link_to|link_to_if|link_to_unless|link_to_unless_current)\\b(?=\\s|\\()",
+          "comment": "https://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html"
+        },
+        {
+          "name": "support.function.url-helper.action-view.rails",
+          "match": "(?<!\\.)\\b(current_page\\?)\\B(?=\\s|\\()",
+          "comment": "https://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html"
+        }
+      ]
+    }
+  }
+}

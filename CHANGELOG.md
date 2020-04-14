@@ -80,3 +80,6 @@
 - Abstract Controller callbacks to require Symbol Argument.
 
 ## [Unreleased]
+### [0.2.31]
+#### Added
+- `ActionView::Helpers::UrlHelper`
