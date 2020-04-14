@@ -58,19 +58,25 @@
 - Prevent Keywords from highlighting with preceeding dot
 
 ### Change
-- Differentiate Keywords and Functions
+- Differentiate Keywords and Functions.
 
 ### [0.2.0]
 #### Fixed
-- Prevent Special Methods from highlighting when followed by characters with whitespace
+- Prevent Special Methods from highlighting when followed by characters with whitespace.
 
 ### [0.2.1]
 #### Fixed
-- Space Requirement for Special Methods
+- Space Requirement for Special Methods.
 
 ### [0.2.2]
 #### Fixed
-- Disallowed preceeding characters for special methods
-- Gemfile Pattern Match for special methods
+- Disallowed preceeding characters for special methods.
+- Gemfile Pattern Match for special methods.
+
+### [0.2.2.1]
+#### Fixed
+- ActiveStorage Special Methods to require Symbol Argument.
+- Associate `purge` and `purge_later` as Support Functions not Special Methods.
+- Abstract Controller callbacks to require Symbol Argument.
 
 ## [Unreleased]
