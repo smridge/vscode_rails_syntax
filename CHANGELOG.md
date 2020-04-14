@@ -79,7 +79,8 @@
 - Associate `purge` and `purge_later` as Support Functions not Special Methods.
 - Abstract Controller callbacks to require Symbol Argument.
 
-## [Unreleased]
 ### [0.2.31]
 #### Added
 - `ActionView::Helpers::UrlHelper`
+
+## [Unreleased]
