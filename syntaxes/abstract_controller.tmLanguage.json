@@ -9,7 +9,7 @@
       "patterns": [
         {
           "name": "keyword.other.special-method.callback.abstract-controller.rails",
-          "match": "(?<![+\\-*\\/=><&%!^\\.()|]|\\w\\s)\\b(after_action|append_after_action|append_around_action|append_before_action|around_action|before_action|prepend_after_action|prepend_around_action|prepend_before_action|skip_after_action|skip_around_action|skip_before_action)\\b(?![:!?.+]|\\s+[=+])",
+          "match": "(?<![+\\-*\\/=><&%!^\\.()|]|\\w\\s)\\b(after_action|append_after_action|append_around_action|append_before_action|around_action|before_action|prepend_after_action|prepend_around_action|prepend_before_action|skip_after_action|skip_around_action|skip_before_action)\\b(?=\\s*\\(?\\s*:)",
           "comment": "https://api.rubyonrails.org/classes/AbstractController/Callbacks.html"
         }
       ]
