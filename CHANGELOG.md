@@ -73,7 +73,7 @@
 - Disallowed preceeding characters for special methods.
 - Gemfile Pattern Match for special methods.
 
-### [0.2.2.1]
+### [0.2.3]
 #### Fixed
 - ActiveStorage Special Methods to require Symbol Argument.
 - Associate `purge` and `purge_later` as Support Functions not Special Methods.

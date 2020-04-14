@@ -4,7 +4,7 @@
   "description": "Extends Ruby Language Grammar with Rails Library",
   "publisher": "SarahRidge",
   "icon": "images/icon.png",
-  "version": "0.2.2.1",
+  "version": "0.2.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/smridge/vscode_rails_syntax"
