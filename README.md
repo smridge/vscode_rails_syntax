@@ -17,6 +17,8 @@ Syntax Identification for Rails Library using [Rails API](https://api.rubyonrail
 - `Routing::Mapper::Scoping`
 
 ### ActionView
+- `ActionView::Helpers::TextHelper`
+- `ActionView::Helpers::TranslationHelper`
 - `ActionView::Helpers::UrlHelper`
 
 ### ActionText
