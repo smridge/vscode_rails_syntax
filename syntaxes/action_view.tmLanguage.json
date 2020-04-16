@@ -3,9 +3,29 @@
   "scopeName": "action_view",
   "injectionSelector": "L:source -comment -string -source.ruby.gemfile",
   "patterns": [
+    { "include": "#helpers_text_helper" },
+    { "include": "#helpers_translation_helper" },
     { "include": "#helpers_url_helper" }
   ],
   "repository": {
+    "helpers_text_helper": {
+      "patterns": [
+        {
+          "name": "support.function.text-helper.action-view.rails",
+          "match": "(?<!\\.)\\b(concat|current_cycle|cycle|excerpt|highlight|pluralize|reset_cycle|safe_concat|simple_format|truncate|word_wrap)\\b(?=\\s|\\()",
+          "comment": "https://api.rubyonrails.org/classes/ActionView/Helpers/TextHelper.html"
+        }
+      ]
+    },
+    "helpers_translation_helper": {
+      "patterns": [
+        {
+          "name": "support.function.text-translation.action-view.rails",
+          "match": "(?<!\\.)\\b(l|localize|t|translate)\\b(?=\\s|\\()",
+          "comment": "https://api.rubyonrails.org/classes/ActionView/Helpers/TranslationHelper.html"
+        }
+      ]
+    },
     "helpers_url_helper": {
       "patterns": [
         {
