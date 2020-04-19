@@ -19,7 +19,7 @@
       "patterns": [
         {
           "name": "keyword.other.special-method.action-controller.rails",
-          "match": "(?<=^|\\s)\\b(add_flash_types)\\b(?=\\s*\\(?\\s*:)",
+          "match": "(?<=^|\\s)\\b(add_flash_types)\\b(?=\\s|\\()",
           "comment": "https://api.rubyonrails.org/classes/ActionController/Flash/ClassMethods.html"
         }
       ]
