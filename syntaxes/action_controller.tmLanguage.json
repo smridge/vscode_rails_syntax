@@ -1,0 +1,28 @@
+{
+  "scopeName": "action_controller",
+  "injectionSelector": "L:source -comment -string -source.ruby.gemfile",
+  "patterns": [
+    { "include": "#redirecting" },
+    { "include": "#flash" }
+  ],
+  "repository": {
+    "redirecting": {
+      "patterns": [
+        {
+          "name": "support.function.action-controller.rails",
+          "match": "(?<=^|\\s)\\b(redirect_back|redirect_to)\\b(?=\\s|\\()",
+          "comment": "https://api.rubyonrails.org/classes/ActionController/Redirecting.html"
+        }
+      ]
+    },
+    "flash": {
+      "patterns": [
+        {
+          "name": "keyword.other.special-method.action-controller.rails",
+          "match": "(?<=^|\\s)\\b(add_flash_types)\\b(?=\\s*\\(?\\s*:)",
+          "comment": "https://api.rubyonrails.org/classes/ActionController/Flash/ClassMethods.html"
+        }
+      ]
+    }
+  }
+}
