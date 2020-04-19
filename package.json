@@ -23,6 +23,11 @@
         "path": "./syntaxes/abstract_controller.tmLanguage.json"
       },
       {
+        "injectTo": ["source.ruby"],
+        "scopeName": "action_controller",
+        "path": "./syntaxes/action_controller.tmLanguage.json"
+      },
+      {
         "injectTo": [ "source.ruby"],
         "scopeName": "action_dispatch",
         "path": "./syntaxes/action_dispatch.tmLanguage.json"
