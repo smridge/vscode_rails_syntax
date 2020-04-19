@@ -48,11 +48,6 @@
         "path": "./syntaxes/active_storage.tmLanguage.json"
       },
       {
-        "injectTo": ["source.ruby.gemfile"],
-        "scopeName": "gemfile",
-        "path": "./syntaxes/gemfile.tmLanguage.json"
-      },
-      {
         "injectTo": ["source.ruby"],
         "scopeName": "module",
         "path": "./syntaxes/module.tmLanguage.json"
