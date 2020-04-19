@@ -1,10 +1,25 @@
 # Change Log
 
 ## [Released]
+### [0.2.33]
+#### Added
+- Known `ActionController::Redirecting` Methods
+- Known `ActionController::Flash::ClassMethods` Methods
+
+### Changed
+- Simplify Regex Lookbehinds
+
+### Fixed
+- Prevent Active Storage Attached Models from highlighting in Hash Keys
+
+#### Removed
+- `gemfile` syntax as this is not Rails specific.
+  - `gemfile` grammar added to [Ruby Syntax Highlighting](https://github.com/smridge/vscode-ruby-syntax)
+
 ### [0.2.32]
 #### Added
-- `ActionView::Helpers::TextHelper`
-- `ActionView::Helpers::TranslationHelper`
+- Known `ActionView::Helpers::TextHelper` methods.
+- Known `ActionView::Helpers::TranslationHelper` methods.
 
 ### [0.2.31]
 #### Added

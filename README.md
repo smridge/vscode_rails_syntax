@@ -3,10 +3,14 @@ Extends Visual Studio Code's Ruby Language Grammars with Rails Library.
 
 Syntax Identification for Rails Library using [Rails API](https://api.rubyonrails.org).
 
-## Mappings
+## Known Methods Added from:
 
 ### AbstractController
 - `AbstractController::Callbacks`
+
+### ActionController
+- `ActionController::Flash::ClassMethods`
+- `ActionController::Redirecting`
 
 ### ActionDispatch
 - `Routing::Mapper::Base`
@@ -43,18 +47,18 @@ Syntax Identification for Rails Library using [Rails API](https://api.rubyonrail
 ### Module
 - `Module < Object`
 
-### Other
-- `Bundler`
-  - `gemfile`
-
 ## Notes
 This Extension is certainly not inclusive of every method Rails offers. Rails is a massive library!
 
 Pull Requests are more than welcome!
 
-#### References
+## References
 [Syntax Highlight Guide](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide)
 
 [Language Grammar Rules](https://macromates.com/manual/en/language_grammars)
 
 [Rails API](https://api.rubyonrails.org)
+
+## Related Extension
+
+[Ruby Syntax Highlighting](https://github.com/smridge/vscode-ruby-syntax)
