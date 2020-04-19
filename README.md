@@ -53,7 +53,7 @@ This Extension is certainly not inclusive of every method Rails offers. Rails is
 Pull Requests are more than welcome!
 
 ## References
-[Download Extension](https://marketplace.visualstudio.com/items?itemName=SarahRidge.vscode-rails-syntax)
+Install via [Visual Studio Code Extensions](https://marketplace.visualstudio.com/items?itemName=SarahRidge.vscode-rails-syntax)
 
 [Syntax Highlight Guide](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide)
 
