@@ -64,3 +64,7 @@ Install via [Visual Studio Code Extensions](https://marketplace.visualstudio.com
 ## Related Extension
 
 [Ruby Syntax Highlighting](https://github.com/smridge/vscode-ruby-syntax)
+
+<br>
+
+<img src="https://raw.githubusercontent.com/smridge/vscode_rails_syntax/master/images/icon.png" width="35"> Logo &copy;, David Heinemeier Hansson: https://rubyonrails.org/trademarks/
