@@ -3,7 +3,16 @@ Extends Visual Studio Code's Ruby Language Grammars with Rails Library.
 
 Syntax Identification for Rails Library using [Rails API](https://api.rubyonrails.org).
 
-## Known Methods Added from:
+## Example Syntax Highlighting
+### After vs Before
+  <img src="https://raw.githubusercontent.com/smridge/vscode_rails_syntax/master/images/after.png" width="400">
+  <img src="https://raw.githubusercontent.com/smridge/vscode_rails_syntax/master/images/before.png" width="400">
+
+"Special Methods" such as `belongs_to`, `has_many`, `has_rich_text`, `validates`, `scope`, `before_action`, `link_to` are now identified.
+
+There are certainly more known methods Rails provides. Added Methods from various classes/modules listed below.
+
+## Known Methods Added
 
 ### AbstractController
 - `AbstractController::Callbacks`
