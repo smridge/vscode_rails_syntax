@@ -5,7 +5,8 @@
   "patterns": [
     { "include": "#helpers_text_helper" },
     { "include": "#helpers_translation_helper" },
-    { "include": "#helpers_url_helper" }
+    { "include": "#helpers_url_helper" },
+    { "include": "#helpers_cache_helper" }
   ],
   "repository": {
     "helpers_text_helper": {
@@ -37,6 +38,15 @@
           "name": "support.function.url-helper.action-view.rails",
           "match": "(?<!\\.)\\b(current_page\\?)\\B(?=\\s|\\()",
           "comment": "https://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html"
+        }
+      ]
+    },
+    "helpers_cache_helper": {
+      "patterns": [
+        {
+          "name": "support.function.cache-helper.action-view.rails",
+          "match": "(?<!\\.)\\b(cache|cache_fragment_name|cache_if|cache_unless)\\b(?=\\s|\\()",
+          "comment": "https://api.rubyonrails.org/classes/ActionView/Helpers/CacheHelper.html"
         }
       ]
     }
