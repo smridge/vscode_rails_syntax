@@ -1,6 +1,10 @@
 # Change Log
 
 ## [Released]
+### [0.2.35]
+#### Added
+- Known `ActionView::Helpers::CacheHelper` Methods
+
 ### [0.2.33]
 #### Added
 - Known `ActionController::Redirecting` Methods

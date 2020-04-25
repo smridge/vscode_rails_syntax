@@ -36,6 +36,7 @@ There are certainly more known methods Rails provides. Added Methods from variou
 - `ActionView::Helpers::TextHelper`
 - `ActionView::Helpers::TranslationHelper`
 - `ActionView::Helpers::UrlHelper`
+- `ActionView::Helpers::CacheHelper`
 
 ### ActionText
 - `ActionText::Attribute`
@@ -79,4 +80,4 @@ Install via [Visual Studio Code Extensions](https://marketplace.visualstudio.com
 
 <br>
 
-<img src="https://raw.githubusercontent.com/smridge/vscode_rails_syntax/master/images/icon.png" width="35"> Logo &copy;, David Heinemeier Hansson: https://rubyonrails.org/trademarks/
+<img src="https://raw.githubusercontent.com/smridge/vscode_rails_syntax/master/images/icon.png" width="35"> Logo &copy; David Heinemeier Hansson: https://rubyonrails.org/trademarks/
