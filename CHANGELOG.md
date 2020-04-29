@@ -1,11 +1,12 @@
 # Change Log
 ## [Unreleased]
+
+## [Released]
 ### [0.2.36]
 #### Fixed
 - Query Methods from highlighting when identified as variable.
 - Differentiate Active Model Support Functions and Special Methods
 
-## [Released]
 ### [0.2.35]
 #### Added
 - Known `ActionView::Helpers::CacheHelper` Methods
