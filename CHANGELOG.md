@@ -1,4 +1,8 @@
 # Change Log
+## [Unreleased]
+### [0.2.36]
+#### Fixed
+- Query Methods from highlighting when identified as variable.
 
 ## [Released]
 ### [0.2.35]
@@ -107,6 +111,3 @@
 - `ActiveRecord::QueryMethods`
 - `ActiveRecord::Scoping::Named::ClassMethods`
 - `ActiveStorage::Attached::Model`
-
-
-## [Unreleased]
