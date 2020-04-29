@@ -16,7 +16,7 @@
       "patterns": [
         {
           "name": "keyword.other.special-method.association.active-record.rails",
-          "match": "(?<=^|\\s)\\b(belongs_to|has_one|has_many|has_and_belongs_to_many)\\b(?![:!?.+]|\\s+[=+])",
+          "match": "(?<=^|\\s)\\b(belongs_to|has_one|has_many|has_and_belongs_to_many)\\b(?=\\040|\t|\\()",
           "comment": "https://api.rubyonrails.org/classes/ActiveRecord/Associations/ClassMethods.html"
         }
       ]
@@ -25,7 +25,7 @@
       "patterns": [
         {
           "name": "keyword.other.special-method.callback.active-record.rails",
-          "match": "(?<=^|\\s)\\b(after_initialize|after_find|after_touch|before_validation|after_validation|before_save|around_save|after_save|before_create|around_create|after_create|before_update|around_update|after_update|before_destroy|around_destroy|after_destroy|after_commit|after_rollback)\\b(?![:!?.+]|\\s+[=+])",
+          "match": "(?<=^|\\s)\\b(after_initialize|after_find|after_touch|before_validation|after_validation|before_save|around_save|after_save|before_create|around_create|after_create|before_update|around_update|after_update|before_destroy|around_destroy|after_destroy|after_commit|after_rollback)\\b(?=\\040|\t|\\()",
           "comment": "https://api.rubyonrails.org/classes/ActiveRecord/Callbacks.html"
         }
       ]
@@ -34,7 +34,7 @@
       "patterns": [
         {
           "name": "keyword.other.special-method.enum.active-record.rails",
-          "match": "(?<=^|\\s)\\b(enum)\\b(?![:!?.+]|\\s+[=+])",
+          "match": "(?<=^|\\s)\\b(enum)\\b(?=\\040|\t|\\()",
           "comment": "https://api.rubyonrails.org/classes/ActiveRecord/Enum.html"
         }
       ]
@@ -43,17 +43,17 @@
       "patterns": [
         {
           "name": "keyword.other.special-method.migration.create.active-record.rails",
-          "match": "(?<=^|\\s)\\b(create_join_table|create_table|add_column|add_foreign_key|add_index|add_reference|add_timestamps)\\b(?![:!?.+]|\\s+[=+])",
+          "match": "(?<=^|\\s)\\b(create_join_table|create_table|add_column|add_foreign_key|add_index|add_reference|add_timestamps)\\b(?=\\040|\t|\\()",
           "comment": "https://api.rubyonrails.org/classes/ActiveRecord/Migration.html"
         },
         {
           "name": "keyword.other.special-method.migration.modify.active-record.rails",
-          "match": "(?<=^|\\s)\\b(change_column|change_column_default|change_column_null|change_table|rename_column|rename_index|rename_table)\\b(?![:!?.+]|\\s+[=+])",
+          "match": "(?<=^|\\s)\\b(change_column|change_column_default|change_column_null|change_table|rename_column|rename_index|rename_table)\\b(?=\\040|\t|\\()",
           "comment": "https://api.rubyonrails.org/classes/ActiveRecord/Migration.html"
         },
         {
           "name": "keyword.other.special-method.delete.active-record.rails",
-          "match": "(?<=^|\\s)\\b(drop_table|drop_join_table|remove_column|remove_columns|remove_foreign_key|remove_index|remove_reference|remove_timestamps)\\b(?![:!?.+]|\\s+[=+])",
+          "match": "(?<=^|\\s)\\b(drop_table|drop_join_table|remove_column|remove_columns|remove_foreign_key|remove_index|remove_reference|remove_timestamps)\\b(?=\\040|\t|\\()",
           "comment": "https://api.rubyonrails.org/classes/ActiveRecord/Migration.html"
         }
       ]
@@ -62,7 +62,7 @@
       "patterns": [
         {
           "name": "keyword.other.special-method.nested-attributes.active-record.rails",
-          "match": "(?<=^|\\s)(accepts_nested_attributes_for)(?![:!?.+]|\\s+[=+])",
+          "match": "(?<=^|\\s)(accepts_nested_attributes_for)(?=\\040|\t|\\()",
           "comment": "https://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html"
         }
       ]
@@ -76,7 +76,7 @@
         },
         {
           "name": "support.function.query-methods.active-record.rails",
-          "match": "(?<=\\.)\\b(distinct|lock|none|readonly|reverse_order)\\b(?![:])",
+          "match": "(?<=\\.)\\b(distinct|lock|none|readonly|reverse_order)\\b(?![:.])",
           "comment": "https://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html"
         },
         {
@@ -90,12 +90,12 @@
       "patterns": [
         {
           "name": "support.function.relation.active-record.rails",
-          "match": "(?<=\\.)\\b(any\\?|blank\\?|create\\!|create_or_find_by\\!|eager_loading\\?|empty\\?|find_or_create_by\\!|many\\?|none\\?|one\\?)\\B(?![:+]|\\s+[=+])",
+          "match": "(?<=\\.)\\b(any\\?|blank\\?|create\\!|create_or_find_by\\!|eager_loading\\?|empty\\?|find_or_create_by\\!|many\\?|none\\?|one\\?)\\B(?![:.])",
           "comment": "https://api.rubyonrails.org/classes/ActiveRecord/Relation.html"
         },
         {
           "name": "support.function.relation.active-record.rails",
-          "match": "(?<=\\.)\\b(build|cache_key|cache_version|create|create_or_find_by|delete_all|delete_by|destroy_all|destroy_by|encode_with|explain|find_or_create_by|find_or_initialize_by|initialize_copy|inspect|joined_includes_values|load|load_records|pretty_print|reload|scope_for_create|scoping|to_sql|touch_all|where_values_hash)\\b(?![:+]|\\s+[=+])",
+          "match": "(?<=\\.)\\b(build|cache_key|cache_version|create|create_or_find_by|delete_all|delete_by|destroy_all|destroy_by|encode_with|explain|find_or_create_by|find_or_initialize_by|initialize_copy|inspect|joined_includes_values|load|load_records|pretty_print|reload|scope_for_create|scoping|to_sql|touch_all|where_values_hash)\\b(?![:.])",
           "comment": "https://api.rubyonrails.org/classes/ActiveRecord/Relation.html"
         }
       ]
@@ -104,12 +104,12 @@
       "patterns": [
         {
           "name": "keyword.other.special-method.scoping.active-record.rails",
-          "match": "(?<=^|\\s)\\b(scope)\\b(?![:!?.+]|\\s+[=+])",
+          "match": "(?<=^|\\s)\\b(scope)\\b(?=\\040|\t|\\()",
           "comment": "https://api.rubyonrails.org/classes/ActiveRecord/Scoping/Named/ClassMethods.html"
         },
         {
           "name": "support.function.scoping.active-record.rails",
-          "match": "\\b(all)\\b(?![:!?.+]|\\s+[=+])",
+          "match": "(?<=\\.)\\b(all)\\b(?![:.])",
           "comment": "https://api.rubyonrails.org/classes/ActiveRecord/Scoping/Named/ClassMethods.html"
         }
       ]
