@@ -2,6 +2,10 @@
 ## [Unreleased]
 
 ## [Released]
+### [0.2.37]
+#### Fixed
+- `select` method to differentiate Rails select vs Ruby Array#select
+
 ### [0.2.36]
 #### Fixed
 - Query Methods from highlighting when identified as variable.
