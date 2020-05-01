@@ -81,7 +81,7 @@
         },
         {
           "name": "support.function.query-methods.active-record.rails",
-          "match": "\\b(select)\\b(?=\\(|\\s*{)",
+          "match": "\\b(select)\b(?=\\()",
           "comment": "https://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html"
         }
       ]
