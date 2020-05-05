@@ -2,6 +2,10 @@
 ## [Unreleased]
 
 ## [Released]
+### [0.2.40]
+#### Fixed
+- Named Route Collection Methods when used as argument.
+
 ### [0.2.39]
 #### Added
 - Named Route Collection Methods (i.e. `foo_path`, `foo_url`).
