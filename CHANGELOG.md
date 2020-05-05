@@ -2,6 +2,10 @@
 ## [Unreleased]
 
 ## [Released]
+### [0.2.39]
+#### Added
+- Named Route Collection Methods (i.e. `foo_path`, `foo_url`).
+
 ### [0.2.38]
 #### Added
 - Known `ActionController::RequestForgeryProtection::ClassMethods` Methods.
