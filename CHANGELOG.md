@@ -1,5 +1,7 @@
 # Change Log
 ## [Unreleased]
+### [0.2.38]
+- Known `ActionController::RequestForgeryProtection::ClassMethods` Methods.
 
 ## [Released]
 ### [0.2.37]

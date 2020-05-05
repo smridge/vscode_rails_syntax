@@ -2,7 +2,8 @@
   "scopeName": "abstract_controller",
   "injectionSelector": "L:source -comment -string -source.ruby.gemfile",
   "patterns": [
-    { "include": "#callbacks" }
+    { "include": "#callbacks" },
+    { "include": "#request_forgery_protection"}
   ],
   "repository": {
     "callbacks": {
@@ -11,6 +12,15 @@
           "name": "keyword.other.special-method.callback.abstract-controller.rails",
           "match": "(?<=^|\\s)\\b(after_action|append_after_action|append_around_action|append_before_action|around_action|before_action|prepend_after_action|prepend_around_action|prepend_before_action|skip_after_action|skip_around_action|skip_before_action)\\b(?=\\s*\\(?\\s*:)",
           "comment": "https://api.rubyonrails.org/classes/AbstractController/Callbacks.html"
+        }
+      ]
+    },
+    "request_forgery_protection": {
+      "patterns": [
+        {
+          "name": "keyword.other.special-method.request-forgery-protection.abstract-controller.rails",
+          "match": "(?<=^|\\s)\\b(protect_from_forgery|skip_forgery_protection)\\b(?=[\\s\\(])",
+          "comment": "https://api.rubyonrails.org/classes/ActionController/RequestForgeryProtection/ClassMethods.html"
         }
       ]
     }
