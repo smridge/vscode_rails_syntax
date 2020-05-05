@@ -15,7 +15,7 @@
       "patterns": [
         {
           "name": "support.function.named-route.routing.action-dispatch.rails",
-          "match": "\\b(\\w+_path|\\w+_url)\\b(?=[\\s\\(])",
+          "match": "\\b(\\w+_path|\\w+_url)\\b(?=[\\s\\(\\)])",
           "comment": "https://github.com/rails/rails/blob/master/actionpack/lib/action_dispatch/routing/route_set.rb#L103-L106"
         }
       ]
