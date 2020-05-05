@@ -1,9 +1,11 @@
 # Change Log
 ## [Unreleased]
-### [0.2.38]
-- Known `ActionController::RequestForgeryProtection::ClassMethods` Methods.
 
 ## [Released]
+### [0.2.38]
+#### Added
+- Known `ActionController::RequestForgeryProtection::ClassMethods` Methods.
+
 ### [0.2.37]
 #### Fixed
 - `select` method to differentiate Rails select vs Ruby Array#select

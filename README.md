@@ -23,6 +23,7 @@ There are certainly more known methods Rails provides. Added Methods from variou
 ### ActionController
 - `ActionController::Flash::ClassMethods`
 - `ActionController::Redirecting`
+- `ActionController::RequestForgeryProtection::ClassMethods`
 
 ### ActionDispatch
 - `Routing::Mapper::Base`
