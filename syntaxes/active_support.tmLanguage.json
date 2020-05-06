@@ -1,0 +1,23 @@
+{
+  "scopeName": "active_support",
+  "injectionSelector": "L:source -comment -string -source.ruby.gemfile",
+  "patterns": [
+    { "include": "#rescuable" }
+  ],
+  "repository": {
+    "rescuable": {
+      "patterns": [
+        {
+          "name": "keyword.other.special-method.rescuable.active-support.rails",
+          "match": "(?<=^|\\s)(rescue_from)(?=[\\040\\t\\(])",
+          "comment": "https://api.rubyonrails.org/classes/ActiveSupport/Rescuable/ClassMethods.html"
+        },
+        {
+          "name": "support.function.rescuable.active-support.rails",
+          "match": "(?<=^|\\s)(rescue_with_handler)(?=[\\040\\t\\(])",
+          "comment": "https://api.rubyonrails.org/classes/ActiveSupport/Rescuable/ClassMethods.html"
+        }
+      ]
+    }
+  }
+}
