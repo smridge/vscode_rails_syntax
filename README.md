@@ -59,6 +59,9 @@ There are certainly more known methods Rails provides. Added Methods from variou
 ### ActiveStorage
 - `ActiveStorage::Attached::Model`
 
+### ActiveSupport
+- `ActiveSupport::Rescuable::ClassMethods`
+
 ### Module
 - `Module < Object`
 

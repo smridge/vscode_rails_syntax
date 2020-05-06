@@ -2,6 +2,13 @@
 ## [Unreleased]
 
 ## [Released]
+### [0.2.41]
+#### Fixed
+- Highlighting for `has_rich_text`.
+
+#### Added
+- Known `ActiveSupport::Rescuable::ClassMethods` Methods.
+
 ### [0.2.40]
 #### Fixed
 - Named Route Collection Methods when used as argument.
