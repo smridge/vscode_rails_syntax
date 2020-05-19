@@ -7,7 +7,7 @@
     { "include": "#routing_mapper_concerns" },
     { "include": "#routing_mapper_custom_urls" },
     { "include": "#routing_mapper_http_helpers" },
-    { "include": "#routing_mapper_resouces" },
+    { "include": "#routing_mapper_resources" },
     { "include": "#routing_mapper_scoping" }
   ],
   "repository": {
@@ -56,16 +56,26 @@
       "patterns": [
         {
           "name": "support.function.http-helper.mapper.routing.action-dispatch.rails",
-          "match": "(?<=^|\\s)\\b(delete|get|patch|post|put)\\b(?![:!?.+]|\\s+[=+])",
+          "match": "(?<=^|\\s)\\b(delete|get|patch|post|put)\\b(?=\\s+[:\"']|\\([:\"'])",
           "comment": "https://api.rubyonrails.org/classes/ActionDispatch/Routing/Mapper/HttpHelpers.html"
         }
       ]
     },
-    "routing_mapper_resouces": {
+    "routing_mapper_resources": {
       "patterns": [
         {
           "name": "keyword.other.special-method.resources.mapper.routing.action-dispatch.rails",
-          "match": "(?<=^|\\s)\\b(collection|member|namespace|resource|resources|root)\\b(?![:!?.+]|\\s+[=+])",
+          "match": "(?<=^|\\s)\\b(namespace|resource|resources)\\b(?=\\s+:|\\(:)",
+          "comment": "https://api.rubyonrails.org/classes/ActionDispatch/Routing/Mapper/Resources.html"
+        },
+        {
+          "name": "keyword.other.special-method.resources.mapper.routing.action-dispatch.rails",
+          "match": "(?<=^|\\s)\\b(collection|member)\\b(?=\\040+d|\\t+d)",
+          "comment": "https://api.rubyonrails.org/classes/ActionDispatch/Routing/Mapper/Resources.html"
+        },
+        {
+          "name": "keyword.other.special-method.resources.mapper.routing.action-dispatch.rails",
+          "match": "(?<=^|\\s)\\b(root)\\b(?=\\040+|\\t+)",
           "comment": "https://api.rubyonrails.org/classes/ActionDispatch/Routing/Mapper/Resources.html"
         }
       ]
@@ -74,7 +84,7 @@
       "patterns": [
         {
           "name": "support.function.scoping.mapper.routing.action-dispatch.rails",
-          "match": "(?<=^|\\s)\\b(constraints|controller|defaults)\\b(?![:!?.+]|\\s+[=+])",
+          "match": "(?<=^|\\s)\\b(constraints|controller|defaults)\\b(?=\\040|\t|\\()",
           "comment": "https://api.rubyonrails.org/classes/ActionDispatch/Routing/Mapper/Scoping.html"
         },
         {
