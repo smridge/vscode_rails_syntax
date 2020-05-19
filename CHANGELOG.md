@@ -2,6 +2,10 @@
 ## [Unreleased]
 
 ## [Released]
+### [0.2.42]
+#### Fixed
+- Highlighting for Routing - Resources, Scoping and HTTP Helpers.
+
 ### [0.2.41]
 #### Fixed
 - Highlighting for `has_rich_text`.
