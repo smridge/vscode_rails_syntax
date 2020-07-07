@@ -1,5 +1,8 @@
 # Change Log
 ## [Unreleased]
+### [0.2.43]
+#### Fixed
+- Highlighting for Module, Active Storage methods.
 
 ## [Released]
 ### [0.2.42]
