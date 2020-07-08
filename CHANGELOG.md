@@ -1,10 +1,11 @@
 # Change Log
 ## [Unreleased]
+
+## [Released]
 ### [0.2.43]
 #### Fixed
 - Highlighting for Module, Active Storage methods.
 
-## [Released]
 ### [0.2.42]
 #### Fixed
 - Highlighting for Routing - Resources, Scoping and HTTP Helpers.
