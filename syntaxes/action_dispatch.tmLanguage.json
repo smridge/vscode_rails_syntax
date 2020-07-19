@@ -1,6 +1,6 @@
 {
   "scopeName": "action_dispatch",
-  "injectionSelector": "L:source -comment -string -source.ruby.gemfile",
+  "injectionSelector": "L:source -comment -string -meta -source.ruby.gemfile",
   "patterns": [
     { "include": "#named_route_collection" },
     { "include": "#routing_mapper_base" },
@@ -15,7 +15,7 @@
       "patterns": [
         {
           "name": "support.function.named-route.routing.action-dispatch.rails",
-          "match": "\\b(\\w+_path|\\w+_url)\\b(?=\\040+|\t+|\\(|\\,)",
+          "match": "\\b(\\w+_path|\\w+_url)\\b(?![:!?.+])",
           "comment": "https://github.com/rails/rails/blob/master/actionpack/lib/action_dispatch/routing/route_set.rb#L103-L106"
         }
       ]
