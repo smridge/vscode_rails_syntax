@@ -1,7 +1,11 @@
 # Change Log
 ## [Unreleased]
 ### [0.2.44]
-- Fix Highlighting for Named Routes
+#### Fixed
+- Highlighting for Named Routes
+
+#### Added
+- Highlighting for Tag Helpers
 
 ## [Released]
 ### [0.2.43]
