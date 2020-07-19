@@ -35,10 +35,11 @@ There are certainly more known methods Rails provides. Added Methods from variou
 - `Routing::Mapper::Scoping`
 
 ### ActionView
+- `ActionView::Helpers::CacheHelper`
+- `ActionView::Helpers::TagHelper`
 - `ActionView::Helpers::TextHelper`
 - `ActionView::Helpers::TranslationHelper`
 - `ActionView::Helpers::UrlHelper`
-- `ActionView::Helpers::CacheHelper`
 
 ### ActionText
 - `ActionText::Attribute`
