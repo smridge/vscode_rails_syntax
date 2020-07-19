@@ -1,5 +1,7 @@
 # Change Log
 ## [Unreleased]
+
+## [Released]
 ### [0.2.44]
 #### Fixed
 - Highlighting for Named Routes
@@ -7,7 +9,6 @@
 #### Added
 - Highlighting for Tag Helpers
 
-## [Released]
 ### [0.2.43]
 #### Fixed
 - Highlighting for Module, Active Storage methods.
