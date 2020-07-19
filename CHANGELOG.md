@@ -1,5 +1,7 @@
 # Change Log
 ## [Unreleased]
+### [0.2.44]
+- Fix Highlighting for Named Routes
 
 ## [Released]
 ### [0.2.43]
