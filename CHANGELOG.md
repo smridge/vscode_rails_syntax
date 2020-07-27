@@ -2,7 +2,7 @@
 ## [Unreleased]
 
 ## [Released]
-### [0.2.45]
+### [0.2.46]
 #### Fixed
 - Highlighting for Active Record Relations
 
