@@ -95,7 +95,7 @@
         },
         {
           "name": "support.function.relation.active-record.rails",
-          "match": "(?<=\\.)\\b(build|cache_key|cache_version|create|create_or_find_by|delete_all|delete_by|destroy_all|destroy_by|encode_with|explain|find_or_create_by|find_or_initialize_by|initialize_copy|inspect|joined_includes_values|load|load_records|pretty_print|reload|scope_for_create|scoping|to_sql|touch_all|where_values_hash)\\b(?![:.])",
+          "match": "(?<=\\.)\\b(build|cache_key|cache_version|create|create_or_find_by|delete_all|delete_by|destroy_all|destroy_by|encode_with|explain|find_or_create_by|find_or_initialize_by|initialize_copy|inspect|joined_includes_values|load|load_records|pretty_print|reload|scope_for_create|scoping|to_sql|touch_all|where_values_hash)\\b(?![:.?])",
           "comment": "https://api.rubyonrails.org/classes/ActiveRecord/Relation.html"
         }
       ]
