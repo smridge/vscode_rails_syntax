@@ -1,6 +1,6 @@
 {
   "scopeName": "action_dispatch",
-  "injectionSelector": "L:source -comment -string -meta -source.ruby.gemfile",
+  "injectionSelector": "L:source -comment -string -meta.function -source.ruby.gemfile",
   "patterns": [
     { "include": "#named_route_collection" },
     { "include": "#routing_mapper_base" },
