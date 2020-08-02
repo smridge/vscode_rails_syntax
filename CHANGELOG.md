@@ -1,10 +1,11 @@
 # Change Log
 ## [Unreleased]
+
+## [Released]
 ### [0.2.47]
 #### Fixed
 - Highlighting for route paths
 
-## [Released]
 ### [0.2.46]
 #### Fixed
 - Highlighting for Active Record Relations
