@@ -8,6 +8,11 @@ Extends Visual Studio Code's Ruby Language Grammars with Rails Library.
 
 Syntax Identification for Rails Library using [Rails API](https://api.rubyonrails.org).
 
+## Install
+- Run: `code --install-extension SarahRidge.vscode-rails-syntax`
+  - Alternatively, extension can be installed via [VScode marketplace](https://marketplace.visualstudio.com/items?itemName=SarahRidge.vscode-rails-syntax).
+- Reload VSCode.
+
 ## Example Syntax Highlighting
 ### Before:
 <img src="https://raw.githubusercontent.com/smridge/vscode_rails_syntax/master/images/before.png" width="400">
@@ -77,8 +82,6 @@ This Extension is certainly not inclusive of every method Rails offers. Rails is
 Pull Requests are more than welcome!
 
 ## References
-Install via [Visual Studio Code Extensions](https://marketplace.visualstudio.com/items?itemName=SarahRidge.vscode-rails-syntax)
-
 [Syntax Highlight Guide](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide)
 
 [Language Grammar Rules](https://macromates.com/manual/en/language_grammars)
