@@ -1,4 +1,8 @@
 # Rails Syntax Highlighting for Visual Studio Code
+[![Version for Visual Studio Code Extension](https://vsmarketplacebadge.apphb.com/version/SarahRidge.vscode-rails-syntax.svg)](https://marketplace.visualstudio.com/items?itemName=SarahRidge.vscode-rails-syntax)
+[![Installs for Visual Studio Code Extension](https://vsmarketplacebadge.apphb.com/installs/SarahRidge.vscode-rails-syntax.svg)](https://marketplace.visualstudio.com/items?itemName=SarahRidge.vscode-rails-syntax)
+[![GitHub License](https://img.shields.io/github/license/smridge/vscode_rails_syntax.svg)](https://github.com/smridge/vscode_rails_syntax/blob/master/LICENSE)
+
 Extends Visual Studio Code's Ruby Language Grammars with Rails Library.
 
 Syntax Identification for Rails Library using [Rails API](https://api.rubyonrails.org).
