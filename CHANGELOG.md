@@ -1,5 +1,8 @@
 # CHANGELOG
 ## master (unreleased)
+- WIP
+
+## 0.3.0 (2023-02-17)
 ### Added
 - Form Tag Helpers
 - Support for Turbo

@@ -1,2 +1,3 @@
 .screenshot-sample.rb
 .DS_Store
+*.vsix
