@@ -40,7 +40,6 @@ There are certainly more known methods Rails provides. Added Methods from variou
 - `ActionController::RequestForgeryProtection::ClassMethods`
 
 ### ActionDispatch
-- `ActionDispatch::Routing::RouteSet::NamedRouteCollection < Object`
 - `Routing::Mapper::Base`
 - `Routing::Mapper::Concerns`
 - `Routing::Mapper::CustomUrls`

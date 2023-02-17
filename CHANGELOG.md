@@ -3,6 +3,9 @@
 ### Added
 - Form Tag Helpers
 
+### Removed
+- Route paths and urls
+
 ## 0.2.47 (2020-08-02)
 ### Fixed
 - Highlighting for route paths
