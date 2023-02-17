@@ -95,6 +95,6 @@ Pull Requests are more than welcome!
   <img src="https://contrib.rocks/image?repo=smridge/vscode_rails_syntax" />
 </a>
 
-<br>
+---
 
 <img src="https://raw.githubusercontent.com/smridge/vscode_rails_syntax/master/images/icon.png" width="35"> Logo &copy; David Heinemeier Hansson: https://rubyonrails.org/trademarks/
