@@ -4,17 +4,9 @@
 [![VS Code Installs](https://img.shields.io/visual-studio-marketplace/i/SarahRidge.vscode-rails-syntax)](https://marketplace.visualstudio.com/items?itemName=SarahRidge.vscode-rails-syntax)
 [![GitHub License](https://img.shields.io/github/license/smridge/vscode_rails_syntax.svg)](https://github.com/smridge/vscode_rails_syntax/blob/master/LICENSE)
 
-Extends Visual Studio Code's Ruby Language Grammars with Rails Library.
+Extends Visual Studio Code's Ruby Language Grammars with the Rails Library.
 
-Syntax Identification for Rails Library using [Rails API](https://api.rubyonrails.org).
-
-## Install
-- Run: `code --install-extension SarahRidge.vscode-rails-syntax`
-  - Alternatively, extension can be installed via [VScode marketplace](https://marketplace.visualstudio.com/items?itemName=SarahRidge.vscode-rails-syntax).
-- Reload VSCode.
-
-## Example Syntax Highlighting
-"Special Methods" are now identified such as:
+Support methods are identified such as:
 - `belongs_to`
 - `has_many`
 - `has_rich_text`
@@ -23,13 +15,16 @@ Syntax Identification for Rails Library using [Rails API](https://api.rubyonrail
 - `before_action`
 - `link_to`
 
-| Before | After |
-| ------ | ----- |
-| <img src="https://raw.githubusercontent.com/smridge/vscode_rails_syntax/master/images/before.png" width="400"> | <img src="https://raw.githubusercontent.com/smridge/vscode_rails_syntax/master/images/after.png" width="400"> |
+This extension is certainly not inclusive of every method Rails and Turbo Rails offers. Rails is a massive library! Added methods from various classes/modules listed below.
 
-There are certainly more known methods Rails provides. Added Methods from various classes/modules listed below.
+Pull Requests are more than welcome!
 
-## Known Methods Added
+## Install
+- Run: `code --install-extension SarahRidge.vscode-rails-syntax`
+  - Alternatively, extension can be installed via [VScode marketplace](https://marketplace.visualstudio.com/items?itemName=SarahRidge.vscode-rails-syntax).
+- Reload VSCode.
+
+## Known Methods Added From
 
 ### AbstractController
 - `AbstractController::Callbacks`
@@ -80,24 +75,26 @@ There are certainly more known methods Rails provides. Added Methods from variou
 ### Module
 - `Module < Object`
 
-## Notes
-This Extension is certainly not inclusive of every method Rails offers. Rails is a massive library!
-
-Pull Requests are more than welcome!
+### Turbo Rails
+- `Turbo::FramesHelper`
+- `Turbo::Streams::ActionHelper`
+- `Turbo::Streams::TagBuilder`
+- `Turbo::StreamsHelper`
 
 ## References
-[Syntax Highlight Guide](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide)
+- [Syntax Highlight Guide](https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide)
+- [Language Grammar Rules](https://macromates.com/manual/en/language_grammars)
+- [Rails API](https://api.rubyonrails.org)
+- [Turbo Rails API](https://github.com/hotwired/turbo-rails)
 
-[Language Grammar Rules](https://macromates.com/manual/en/language_grammars)
+## Related Extensions
+- [Ruby Syntax Highlighting](https://github.com/smridge/vscode-ruby-syntax)
 
-[Rails API](https://api.rubyonrails.org)
-
-## Related Extension
-
-[Ruby Syntax Highlighting](https://github.com/smridge/vscode-ruby-syntax)
+## Contributors
+<a href="https://github.com/smridge/vscode_rails_syntax/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=smridge/vscode_rails_syntax" />
+</a>
 
 <br>
 
 <img src="https://raw.githubusercontent.com/smridge/vscode_rails_syntax/master/images/icon.png" width="35"> Logo &copy; David Heinemeier Hansson: https://rubyonrails.org/trademarks/
-
-https://api.rubyonrails.org/classes/ActionView/Helpers/CaptureHelper.html

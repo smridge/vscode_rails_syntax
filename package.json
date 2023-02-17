@@ -66,6 +66,11 @@
         "injectTo": ["source.ruby"],
         "scopeName": "active_support",
         "path": "./syntaxes/active_support.tmLanguage.json"
+      },
+      {
+        "injectTo": ["source.ruby", "text.html.erb", "text.slim"],
+        "scopeName": "turbo",
+        "path": "./syntaxes/turbo.tmLanguage.json"
       }
     ]
   }

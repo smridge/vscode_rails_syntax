@@ -1,0 +1,64 @@
+{
+  "scopeName": "turbo",
+  "injectionSelector": "L:source -comment -string -source.ruby.gemfile",
+  "patterns": [
+    { "include": "#frames_helper" },
+    { "include": "#streams_helper" },
+    { "include": "#streams_tag_builder" },
+    { "include": "#streams_action_helper" },
+    { "include": "#drive_helper" }
+  ],
+  "repository": {
+    "frames_helper": {
+      "patterns": [
+        {
+          "name": "support.function.turbo.frame-helper.rails",
+          "match": "(?<!\\.)\\b(turbo_frame_tag)\\b(?=\\s|\\()",
+          "comment": "https://github.com/hotwired/turbo-rails/blob/79b301ee114f2b1e255629e2a5d001c0abb71af0/app/helpers/turbo/frames_helper.rb"
+        }
+      ]
+    },
+    "streams_helper": {
+      "patterns": [
+        {
+          "name": "support.function.turbo.stream-helper.rails",
+          "match": "(?<!\\.)\\b(turbo_stream_from)\\b(?=\\s|\\()",
+          "comment": "https://github.com/hotwired/turbo-rails/blob/79b301ee114f2b1e255629e2a5d001c0abb71af0/app/helpers/turbo/streams_helper.rb"
+        },
+        {
+          "name": "support.function.turbo.stream-helper.rails",
+          "begin": "(?<!\\.)\\b(turbo_stream)\\b",
+          "end": "(?=\\.|\\s+\\.)",
+          "comment": "https://github.com/hotwired/turbo-rails/blob/79b301ee114f2b1e255629e2a5d001c0abb71af0/app/helpers/turbo/streams_helper.rb"
+        }
+      ]
+    },
+    "streams_tag_builder": {
+      "patterns": [
+        {
+          "name": "support.function.turbo.stream-tag-helper.rails",
+          "match": "(?<=turbo_stream\\.|turbo_stream\\s\\.)\\b(remove|remove_all|replace|replace_all|before|before_all|after|after_all|update|update_all|append|append_all|prepend|prepend_all|action|action_all)\\b(?=\\s|\\()",
+          "comment": "https://github.com/hotwired/turbo-rails/blob/79b301ee114f2b1e255629e2a5d001c0abb71af0/app/models/turbo/streams/tag_builder.rb"
+        }
+      ]
+    },
+    "streams_action_helper": {
+      "patterns": [
+        {
+          "name": "support.function.turbo.steams-action-helper.rails",
+          "match": "(?<!\\.)\\b(turbo_stream_action_tag)\\b(?=\\s|\\()",
+          "comment": "https://github.com/hotwired/turbo-rails/blob/79b301ee114f2b1e255629e2a5d001c0abb71af0/app/helpers/turbo/streams/action_helper.rb"
+        }
+      ]
+    },
+    "drive_helper": {
+      "patterns": [
+        {
+          "name": "support.function.turbo.drive-helper.rails",
+          "match": "\\b(turbo_exempts_page_from_cache|turbo_exempts_page_from_preview|turbo_page_requires_reload)\\b",
+          "comment": "https://github.com/hotwired/turbo-rails/blob/79b301ee114f2b1e255629e2a5d001c0abb71af0/app/helpers/turbo/drive_helper.rb"
+        }
+      ]
+    }
+  }
+}
