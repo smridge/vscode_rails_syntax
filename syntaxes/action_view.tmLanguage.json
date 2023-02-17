@@ -7,7 +7,8 @@
     { "include": "#helpers_translation_helper" },
     { "include": "#helpers_url_helper" },
     { "include": "#helpers_cache_helper" },
-    { "include": "#helpers_tag_helper" }
+    { "include": "#helpers_tag_helper" },
+    { "include": "#helpers_form_tag_helper"}
   ],
   "repository": {
     "helpers_text_helper": {
@@ -62,6 +63,15 @@
           "name": "support.function.action-view.helpers.rails",
           "match": "(?<!\\.)\\b(tag)\\b(?=\\.)",
           "comment": "https://api.rubyonrails.org/classes/ActionView/Helpers/TagHelper.html"
+        }
+      ]
+    },
+    "helpers_form_tag_helper": {
+      "patterns": [
+        {
+          "name": "support.function.action-view.helpers.rails",
+          "match": "(?<!\\.)\\b(button_tag|check_box_tag|color_field_tag|date_field_tag|datetime_field_tag|datetime_local_field_tag|email_field_tag|field_id|field_name|field_set_tag|file_field_tag|form_tag|hidden_field_tag|image_submit_tag|label_tag|month_field_tag|number_field_tag|password_field_tag|phone_field_tag|radio_button_tag|range_field_tag|search_field_tag|select_tag|submit_tag|telephone_field_tag|text_area_tag|text_field_tag|time_field_tag|url_field_tag|utf8_enforcer_tag|week_field_tag)\\b(?=\\s|\\()",
+          "comment": "https://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html"
         }
       ]
     }

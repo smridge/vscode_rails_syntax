@@ -50,6 +50,7 @@ There are certainly more known methods Rails provides. Added Methods from variou
 
 ### ActionView
 - `ActionView::Helpers::CacheHelper`
+- `ActionView::Helpers::FormTagHelper`
 - `ActionView::Helpers::TagHelper`
 - `ActionView::Helpers::TextHelper`
 - `ActionView::Helpers::TranslationHelper`
@@ -99,3 +100,5 @@ Pull Requests are more than welcome!
 <br>
 
 <img src="https://raw.githubusercontent.com/smridge/vscode_rails_syntax/master/images/icon.png" width="35"> Logo &copy; David Heinemeier Hansson: https://rubyonrails.org/trademarks/
+
+https://api.rubyonrails.org/classes/ActionView/Helpers/CaptureHelper.html

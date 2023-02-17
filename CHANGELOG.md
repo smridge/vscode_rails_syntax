@@ -1,5 +1,6 @@
-# Change Log
+# CHANGELOG
 ## [Unreleased]
+- Added Form Tag Helpers
 
 ## [Released]
 ### [0.2.47]
