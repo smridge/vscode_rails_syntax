@@ -1,6 +1,7 @@
 {
   "name": "vscode-rails-syntax",
   "displayName": "Rails Syntax Highlighting",
+  "license": "MIT",
   "description": "Extends Ruby Language Grammar with Rails Library",
   "publisher": "SarahRidge",
   "icon": "images/icon.png",
@@ -15,6 +16,7 @@
   "categories": [
     "Programming Languages"
   ],
+  "keywords": ["rails", "ruby on rails", "turbo rails"],
   "contributes": {
     "grammars": [
       {
