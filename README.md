@@ -20,9 +20,15 @@ This extension is certainly not inclusive of every method Rails and Turbo Rails 
 Pull Requests are more than welcome!
 
 ## Install
-- Run: `code --install-extension SarahRidge.vscode-rails-syntax`
-  - Alternatively, extension can be installed via [VScode marketplace](https://marketplace.visualstudio.com/items?itemName=SarahRidge.vscode-rails-syntax).
-- Reload VSCode.
+This extension is available at the following extension marketplaces:
+- [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=SarahRidge.vscode-rails-syntax)
+- [Open VSX Registry](https://open-vsx.org/extension/SarahRidge/vscode-rails-syntax)
+
+Run one of the following commands depending on the editor you are using:
+- For `vscode`: `code --install-extension SarahRidge.vscode-rails-syntax`
+- For `cursor`: `cursor --install-extension SarahRidge.vscode-rails-syntax`
+
+Reload your editor
 
 ## Known Methods Added From
 
@@ -89,6 +95,12 @@ Pull Requests are more than welcome!
 
 ## Related Extensions
 - [Ruby Syntax Highlighting](https://github.com/smridge/vscode-ruby-syntax)
+
+## Publish (internal)
+> Note: Publishing a new version of this theme is only meant for maintainers.
+- `npx vsce package`
+- Publish to VSCode Marketplace: `npx vsce publish`
+- Publish to Open VSX Registry: `npx ovsx publish <.vsix file> -p <OpenVSX PAT>`
 
 ## Contributors
 <a href="https://github.com/smridge/vscode_rails_syntax/graphs/contributors">
