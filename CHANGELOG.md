@@ -1,5 +1,8 @@
 # CHANGELOG
 ## master (unreleased)
+-
+
+## 1.0.0 (2026-01-22)
 - Updated [LICENSE](/LICENSE)
 
 ## 0.3.0 (2023-02-17)
