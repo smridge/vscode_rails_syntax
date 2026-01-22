@@ -1,6 +1,6 @@
 # CHANGELOG
 ## master (unreleased)
-- WIP
+- Updated [LICENSE](/LICENSE)
 
 ## 0.3.0 (2023-02-17)
 ### Added
