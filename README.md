@@ -1,6 +1,4 @@
 # Rails Syntax Highlighting for Visual Studio Code
-[![VSCode Version](https://vsmarketplacebadges.dev/version/SarahRidge.vscode-rails-syntax.svg)](https://marketplace.visualstudio.com/items?itemName=SarahRidge.vscode-rails-syntax)
-[![VSCode Downloads](https://vsmarketplacebadges.dev/downloads/SarahRidge.vscode-rails-syntax.svg)](https://marketplace.visualstudio.com/items?itemName=SarahRidge.vscode-rails-syntax)
 [![Open VSX Version](https://img.shields.io/open-vsx/v/sarahridge/vscode-rails-syntax)](https://open-vsx.org/extension/SarahRidge/vscode-rails-syntax)
 [![Open VSX Downloads](https://img.shields.io/open-vsx/dt/sarahridge/vscode-rails-syntax)](https://open-vsx.org/extension/SarahRidge/vscode-rails-syntax)
 [![GitHub License](https://img.shields.io/github/license/smridge/vscode_rails_syntax)](https://github.com/smridge/vscode_rails_syntax/blob/master/LICENSE)
