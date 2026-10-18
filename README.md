@@ -1,9 +1,9 @@
 # Rails Syntax Highlighting for Visual Studio Code
-[![VSCode Marketplace Version](https://img.shields.io/vscode-marketplace/v/SarahRidge.vscode-rails-syntax)](https://marketplace.visualstudio.com/items?itemName=SarahRidge.vscode-rails-syntax)
-[![VSCode Downloads](https://img.shields.io/vscode-marketplace/d/SarahRidge.vscode-rails-syntax)](https://marketplace.visualstudio.com/items?itemName=SarahRidge.vscode-rails-syntax)
+[![VSCode Version](https://vsmarketplacebadges.dev/version/SarahRidge.vscode-rails-syntax.svg)](https://marketplace.visualstudio.com/items?itemName=SarahRidge.vscode-rails-syntax)
+[![VSCode Downloads](https://vsmarketplacebadges.dev/downloads/SarahRidge.vscode-rails-syntax.svg)](https://marketplace.visualstudio.com/items?itemName=SarahRidge.vscode-rails-syntax)
 [![Open VSX Version](https://img.shields.io/open-vsx/v/sarahridge/vscode-rails-syntax)](https://open-vsx.org/extension/SarahRidge/vscode-rails-syntax)
 [![Open VSX Downloads](https://img.shields.io/open-vsx/dt/sarahridge/vscode-rails-syntax)](https://open-vsx.org/extension/SarahRidge/vscode-rails-syntax)
-[![GitHub License](https://img.shields.io/github/license/smridge/vscode_rails_syntax.svg)](https://github.com/smridge/vscode_rails_syntax/blob/master/LICENSE)
+[![GitHub License](https://img.shields.io/github/license/smridge/vscode_rails_syntax)](https://github.com/smridge/vscode_rails_syntax/blob/master/LICENSE)
 
 Extends Visual Studio Code's Ruby Language Grammars with the Rails Library.
 

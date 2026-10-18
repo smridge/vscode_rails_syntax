@@ -1,6 +1,6 @@
 # CHANGELOG
-## master (unreleased)
--
+## `main` (unreleased)
+- Add support for `cursor`
 
 ## 1.0.0 (2026-01-22)
 - Updated [LICENSE](/LICENSE)
